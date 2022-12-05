@@ -26,6 +26,10 @@ public class LibraryController {
     }
     @GetMapping("/view")
     public String ViewBooks(){
-        return "Welcome to viewbooks";
+        return "Welcome to view books";
+    }
+    @PostMapping("/search")
+    public String SearchBook(){
+        return "Welcome to search books";
     }
 }
