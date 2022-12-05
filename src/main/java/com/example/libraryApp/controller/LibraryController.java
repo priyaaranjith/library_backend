@@ -16,4 +16,8 @@ public class LibraryController {
     public String Loginpage(){
         return "Welcome to login page";
     }
+    @PostMapping("/registration")
+    public String UserReg(){
+        return "Welcome to user registration";
+    }
 }
