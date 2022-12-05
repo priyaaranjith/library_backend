@@ -40,5 +40,9 @@ public class LibraryController {
     public String IssueBook(){
         return "Welcome to issue book";
     }
+    @PostMapping("/admin")
+    public String AdminLogin(){
+        return "Welcome to admin login";
+    }
 
 }
