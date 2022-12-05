@@ -20,4 +20,8 @@ public class LibraryController {
     public String UserReg(){
         return "Welcome to user registration";
     }
+    @PostMapping("/entry")
+    public String BookEntry(){
+        return "Welcome to book entry";
+    }
 }
